@@ -31,7 +31,7 @@ class SimpleAppLinks {
     private $default_options = array(
         'cache-time'            => 86400,
         'use-ajax'              => false,
-        'display-powerdby-link' => true,
+        'display-powerdby-link' => false,
         'display-store-badge'   => true,
     );
 
