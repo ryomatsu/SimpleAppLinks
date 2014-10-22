@@ -382,7 +382,8 @@ class SimpleAppLinks {
         preg_match('/[0-9]+/', $rating_count->plaintext, $match);
         $review_count = is_numeric($match[0]) ? $match[0] : 0;
         $rating = $dom->find('div.rating div', 1);
-        $score = $this->rating_star(substr_count($rating->innertext(), '"rating-star"'));
+        // rating is not in html when review is a few
+        $score = ($rating != null) ?  $this->rating_star(substr_count($rating->innertext(), '"rating-star"')): '';
         $published = $dom->find('li.release-date', 0);
         $download = 0; // not in html
 
