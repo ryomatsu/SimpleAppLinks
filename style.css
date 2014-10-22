@@ -1,0 +1,112 @@
+.applink {
+    margin: 20px auto;
+    padding: 10px;
+    clear: both;
+    border: 1px solid #eeeeee;
+    position: relative;
+    min-height: 85px;
+    max-width: 450px;
+    line-height: 1.5em;
+}
+
+.applink .applink-container {
+}
+
+.applink .applink-container a {
+    text-decoration:none;
+}
+
+.applink .applink-icon-container {
+    float:left;
+}
+
+.applink .applink-icon {
+    width:75px;
+    height:75px;
+    border:none;
+}
+
+.applink .applink-appname {
+    font-weight: bold;
+    font-size: 130%;
+    margin: 0px;
+}
+
+.applink .applink-info {
+    margin-left: 84px;
+}
+
+.applink ul.applink-meta {
+    margin:0;
+    padding:0;
+}
+
+.applink ul.applink-meta li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.applink .applink-meta-title:after {
+    content: ':';
+}
+
+.applink .applink-supplier {
+}
+
+.applink .applink-price {
+    display:inline-block;
+}
+
+.applink .applink-score {
+    display:inline-block;
+}
+
+.applink .applink-review {
+}
+
+.applink .applink-platform {
+}
+
+.applink .applink-powerdby {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 70%;
+    color: #666666;
+}
+
+/**
+ * ios apps
+ */
+.applink-ios-app img.applink-icon {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/**
+ * firefox addon
+ */
+.applink-firefox-addon img.applink-icon {
+    width: 32px;
+    height: 32px;
+}
+.applink-firefox-addon .applink-info {
+    margin-left: 42px;
+}
+
+/**
+ * windows apps
+ */
+.applink-windows-apps .applink-icon-container {
+    padding: 10px;
+    background: #000000;
+}
+.applink-windows-apps img.applink-icon {
+    width: 50px;
+    height: 50px;
+}
+.applink-windows-apps .applink-info {
+    margin-left: 80px;
+}

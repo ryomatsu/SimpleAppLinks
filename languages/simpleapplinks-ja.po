@@ -1,0 +1,70 @@
+# Copyright (C) 2013 WordPress
+# This file is distributed under the same license as the WordPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple App Links\n"
+"Report-Msgid-Bugs-To: http://loumo.jp\n"
+"POT-Creation-Date: 2014-10-19 01:38+0900\n"
+"PO-Revision-Date: 2014-10-19 01:50+0900\n"
+"Last-Translator: Ryo Matsufuji <ryomatsu85@gmail.com>\n"
+"Language-Team: Ryo Matsufuji <ryomatsu85@gmail.com>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../simpleapplinks.php:109
+msgid "Cache has been cleared."
+msgstr "キャッシュを削除しました"
+
+#: ../simpleapplinks.php:121
+msgid "Cache Status"
+msgstr "キャッシュの状態"
+
+#: ../simpleapplinks.php:122
+#, php-format
+msgid "%s rows in cache database."
+msgstr "%s 個キャッシュしてます"
+
+#: ../simpleapplinks.php:123
+msgid "Save settings and clear cache"
+msgstr "キャッシュの削除と設定を保存する"
+
+#: ../simpleapplinks.php:135
+msgid "General"
+msgstr "一般"
+
+#: ../simpleapplinks.php:142
+msgid "Cache Time(Second)"
+msgstr "キャッシュ時間(秒)"
+
+#: ../simpleapplinks.php:150
+msgid "Use Ajax"
+msgstr "非同期で読み込む"
+
+#: ../simpleapplinks.php:158
+msgid "Display PowerdBy Link"
+msgstr "PowerdBy リンクを表示する"
+
+#: ../simpleapplinks.php:353 ../simpleapplinks.php:430
+#: ../simpleapplinks.php:470 ../simpleapplinks.php:503
+#: ../simpleapplinks.php:533
+msgid "Free"
+msgstr "無料"
+
+#: ../simpleapplinks.php:570
+msgid "Price"
+msgstr "値段"
+
+#: ../simpleapplinks.php:571
+msgid "Score"
+msgstr "平均評価"
+
+#: ../simpleapplinks.php:572
+msgid "Platform"
+msgstr "プラットフォーム"
