@@ -1,6 +1,6 @@
 <?php /*
 *************************************************************************
-Plugin Name:  Simple App Links
+Plugin Name:  SimpleAppLinks
 Plugin URI:   http://loumo.jp/
 Version:      0.1
 Description:  add link to apps in your blog post.
@@ -12,7 +12,7 @@ require_once 'simple_html_dom.php';
 
 class SimpleAppLinks {
 
-    const PLUGIN_NAME = 'Simple App Links';
+    const PLUGIN_NAME = 'SimpleAppLinks';
     const PLUGIN_URI  = 'http://loumo.jp/';
     const VERSION     = '0.1';
 
